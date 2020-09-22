@@ -7,12 +7,13 @@ public class Main {
 
         Scanner eingabewert = new Scanner(System.in);
 
-        System.out.println("Bitte Benutzer Vorname eingeben: ");
-
+        System.out.println("Bitte Vorname des Benutzers eingeben: ");
         String vorname = eingabewert.nextLine();
-        String nachname = "Marenzzi";
-        int Alter = 28;
 
+        System.out.println("Bitte Nachname des Benutzers eingeben: ");
+        String nachname = eingabewert.nextLine();
+
+        int Alter = 28;
 
         System.out.println("Der Benutzer " + vorname + " " + nachname + " ist aktuell " + Alter + " Jahre alt.");
         System.out.println("Wie Alt wird der Benutzer in ... Jahren sein?");
