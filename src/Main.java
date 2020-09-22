@@ -5,14 +5,16 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Scanner eingabewert = new Scanner(System.in);
 
-        String vorname = "Rikardo";
+        System.out.println("Bitte Benutzer Vorname eingeben: ");
+
+        String vorname = eingabewert.nextLine();
         String nachname = "Marenzzi";
         int Alter = 28;
 
-        Scanner eingabewert = new Scanner(System.in);
 
-        System.out.println("Der Benutzer " + vorname + " " + nachname + " ist aktuell" + Alter + " Jahre alt.");
+        System.out.println("Der Benutzer " + vorname + " " + nachname + " ist aktuell " + Alter + " Jahre alt.");
         System.out.println("Wie Alt wird der Benutzer in ... Jahren sein?");
         System.out.println("Bitte Jahr eingeben: ");
         int Jahr = eingabewert.nextInt();
