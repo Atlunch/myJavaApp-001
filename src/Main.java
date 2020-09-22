@@ -6,8 +6,6 @@ public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println("Hallo Kurs! Was geeeeeeht");
-
         String vorname = "Rikardo";
         String nachname = "Marenzzi";
         int Alter = 28;
