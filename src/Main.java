@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Main {
 
+    /*
+    Hier sollte ein wichtiges Kommentar stehen :)
+     */
 
     public static void main(String[] args) {
 
